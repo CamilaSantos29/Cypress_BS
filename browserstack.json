@@ -1,0 +1,32 @@
+{
+    "auth": {
+        "username": "camilasantos_yE3tiJ",
+        "access_key": "dsPND8tNRQsWm2Sz55Zj"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+                
+            ]
+        }
+        
+    ],
+    "run_settings": {
+        "cypress_config_file": "cypress.json",
+        "project_name": "Testando Cypress",
+        "build_name": "Cypress Build 4",
+        
+        "spec_timeout": 5,
+        "npm_dependencies": {
+            "faker": "^5.5.3",
+            "browserstack-cypress-cli": "^1.15.0",
+            "cypress": "^9.6.1"
+        
+       
+    }
+    
+    }
+}
